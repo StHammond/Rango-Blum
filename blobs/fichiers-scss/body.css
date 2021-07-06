@@ -1,0 +1,12 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  background-color: #405343;
+  cursor: crosshair;
+}
+
+@font-face {
+  font-family: 'Mario-Party-Hudson-Font.ttf';
+  src: url("fichiers-scss/Mario-Party-Hudson-Font.ttf");
+}
+/*# sourceMappingURL=body.css.map */

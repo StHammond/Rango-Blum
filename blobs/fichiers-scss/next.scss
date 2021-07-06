@@ -1,0 +1,23 @@
+#next{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -760px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 50px;
+    font-size: 30px;
+    color: rgb(216, 212, 205);
+    font-family:'Mario-Party-Hudson-Font.ttf';
+    animation:intro infinite 5s;
+    transition: all 200ms;
+    &:hover{
+        color: rgb(251, 255, 0);
+        text-shadow: rgb(251, 255, 0);
+        text-decoration: underline;
+        animation: none;
+        cursor: grab;
+    }
+}

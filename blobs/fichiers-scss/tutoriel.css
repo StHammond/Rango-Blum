@@ -1,0 +1,294 @@
+#regles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  z-index: 4;
+  top: 75px;
+  width: 1400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+#regles #info {
+  font-size: 12px;
+  font-family: 'Mario-Party-Hudson-Font.ttf';
+  color: #d8d4cd;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#regles #info > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#regles #info > :nth-child(1) > div:nth-child(1) {
+  text-shadow: 0 0 15px #d8d4cd;
+  font-size: 30px;
+}
+
+#regles #info > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#regles #info > :nth-child(2) > div:nth-child(1) {
+  text-shadow: 0 0 15px #d8d4cd;
+  font-size: 30px;
+}
+
+#regles #info > :nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#regles #info > :nth-child(3) > div:nth-child(1) {
+  text-shadow: 0 0 15px #d8d4cd;
+  font-size: 30px;
+}
+
+#regles div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#regles div #intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100px;
+  font-family: 'Mario-Party-Hudson-Font.ttf';
+  font-size: 40px;
+  color: #d8d4cd;
+}
+
+#regles div #intro #blobs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 30px;
+}
+
+#regles div #intro #blobs div {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#regles div #intro #blobs div:nth-child(1) {
+  background-color: orange;
+}
+
+#regles div #intro #blobs div:nth-child(2) {
+  background-color: blue;
+}
+
+#regles div #toucheO {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 250px;
+  height: 150px;
+  font-family: 'Mario-Party-Hudson-Font.ttf';
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#regles div #toucheO > div:nth-child(1) {
+  font-size: 20px;
+  color: #d8d4cd;
+}
+
+#regles div #toucheO > div:nth-child(2) {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10px;
+  color: #d8d4cd;
+  border-radius: 2px;
+  border: solid 1px orange;
+}
+
+#regles div #toucheO > div:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #d8d4cd;
+}
+
+#regles div #toucheO > div:nth-child(3) div {
+  border: 1px solid orange;
+  border-radius: 2px;
+  color: #d8d4cd;
+}
+
+#regles div #toucheO > div:nth-child(4) {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  color: #d8d4cd;
+  border: 1px solid #d8d4cd;
+  border-radius: 2px;
+}
+
+#regles div #toucheB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 250px;
+  height: 150px;
+  font-family: 'Mario-Party-Hudson-Font.ttf';
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#regles div #toucheB > div:nth-child(1) {
+  font-size: 20px;
+  color: #d8d4cd;
+}
+
+#regles div #toucheB > div:nth-child(2) {
+  margin-top: 20px;
+  color: #d8d4cd;
+  border-radius: 2px;
+  border: solid 1px blue;
+}
+
+#regles div #toucheB > div:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 15px;
+  color: #d8d4cd;
+  border: 1px solid #d8d4cd;
+  border-radius: 2px;
+}
+
+#regles div #toucheB > div:nth-child(3) div {
+  border: 1px solid #d8d4cd;
+  border-radius: 2px;
+  color: #d8d4cd;
+}
+
+#regles div #toucheB > div:nth-child(4) {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  color: #d8d4cd;
+  border: 1px solid #d8d4cd;
+  border-radius: 2px;
+}
+
+#cache {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: -325px;
+  right: 15px;
+}
+
+#cache #cacheG {
+  position: relative;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  z-index: 2;
+  width: 705px;
+  height: 415px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#181818), color-stop(#0c0c0c), color-stop(#363636), to(#141414));
+  background: linear-gradient(#181818, #0c0c0c, #363636, #141414);
+  left: 17px;
+}
+
+#cache #cacheD {
+  position: relative;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  z-index: 2;
+  width: 705px;
+  height: 415px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#181818), color-stop(#0c0c0c), color-stop(#363636), to(#141414));
+  background: linear-gradient(#181818, #0c0c0c, #363636, #141414);
+  left: 17px;
+}
+/*# sourceMappingURL=tutoriel.css.map */

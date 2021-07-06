@@ -1,0 +1,197 @@
+#regles{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    position:relative;
+    z-index:4;
+    top:75px;
+    width:1400px;
+    height:400px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:0;
+    transition: all 2s;
+    #info{
+        font-size:12px;
+        font-family:'Mario-Party-Hudson-Font.ttf';
+        color: $blanc;
+        transform:scale(0);
+        &>:nth-child(1){
+            display:flex;
+            flex-direction:column;
+            &>div:nth-child(1){
+                text-shadow:0 0 15px $blanc;
+                font-size:30px;
+            }
+        }
+        &>:nth-child(2){
+            display:flex;
+            flex-direction:column;
+            &>div:nth-child(1){
+                text-shadow: 0 0 15px $blanc;
+                font-size:30px;
+            }
+        }
+        &>:nth-child(3){
+            display: flex;
+            flex-direction: column;
+            &>div:nth-child(1){
+                text-shadow: 0 0 15px $blanc;
+                font-size:30px;
+            }
+        }
+    }
+    & div{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        #intro{
+            display:flex;
+            flex-direction:column;
+            height:100px;
+            font-family:'Mario-Party-Hudson-Font.ttf';
+            font-size:40px;
+            color: $blanc;
+            #blobs{ 
+                display:flex;
+                flex-direction:row;
+                margin-left:auto;
+                margin-right:auto;
+                width:200px;
+                height:30px;
+                & div{
+                    width:20px;
+                    height:20px;
+                    border-radius:20px;
+                    border: 2px solid black;
+                    transform:scale(0);
+                    &:nth-child(1){
+                        background-color: orange;
+                    }
+                    &:nth-child(2){
+                        background-color: blue;
+                    }
+                    
+                }
+            }
+        }
+        #toucheO{
+            display:flex;
+            flex-direction:column;
+            justify-content:flex-start;
+            width:250px;
+            height:150px;
+            font-family:'Mario-Party-Hudson-Font.ttf';
+            transform:scale(0);
+            &>div:nth-child(1){
+                font-size:20px;
+                color: $blanc;
+            }
+            &>div:nth-child(2){
+                margin-top:10px;
+                margin-left:auto;
+                margin-right:auto;
+                width:10px;
+                color: $blanc;
+                border-radius: 2px;
+                border: solid 1px orange;
+            }
+            &>div:nth-child(3){
+                display:flex;
+                justify-content:center;
+                flex-direction:row;
+                color: $blanc;
+                & div{
+                    border: 1px solid orange;
+                    border-radius: 2px;
+                    color: $blanc;
+                }
+            }
+            &>div:nth-child(4){
+                width:150px;
+                margin-left:auto;
+                margin-right:auto;
+                margin-top:10px;
+                color: $blanc;
+                border: 1px solid $blanc;
+                border-radius:2px;
+
+            }
+        }
+        #toucheB{
+            display:flex;
+            flex-direction:column;
+            justify-content:flex-start;
+            width:250px;
+            height:150px;
+            font-family: 'Mario-Party-Hudson-Font.ttf';
+            transform: scale(0);
+            &>div:nth-child(1){
+                font-size:20px;
+                color:$blanc;
+            }
+            & > div:nth-child(2){
+                margin-top:20px;
+                color: $blanc;
+                border-radius:2px;
+                border: solid 1px blue;
+            }
+            & > div:nth-child(3){
+                display:flex;
+                justify-content:center;
+                flex-direction:row;
+                margin-top:15px;
+                color: $blanc;
+                border: 1px solid $blanc;
+                border-radius:2px;
+                & div{
+                    border: 1px solid $blanc;
+                    border-radius:2px;
+                    color: $blanc;
+                }
+            }
+            & > div:nth-child(4){
+                width:200px;
+                margin-left:auto;
+                margin-right:auto;
+                margin-top:10px;
+                color: $blanc;
+                border: 1px solid $blanc;
+                border-radius:2px;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+#cache{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -325px;
+    right: 15px;
+    #cacheG{
+        position: relative;
+        transform-origin: left;
+        z-index: 2;
+        width: 705px;
+        height: 415px;
+        background: linear-gradient(rgb(24, 24, 24),rgb(12, 12, 12),rgb(54, 54, 54),rgb(20, 20, 20));
+        left: 17px;
+    }
+    #cacheD{
+        position: relative;
+        transform-origin: right;
+        z-index: 2;
+        width: 705px;
+        height: 415px;
+        background: linear-gradient(rgb(24, 24, 24),rgb(12, 12, 12),rgb(54, 54, 54),rgb(20, 20, 20));
+        left: 17px;
+    }
+}

@@ -1,0 +1,31 @@
+#logo{
+    display:flex;
+    justify-content:flex-start;
+    position:relative;
+    top:50px;
+    &>div{
+        font-family:"Mario-Party-Hudson-Font.ttf" ;
+        font-size:100px;
+        position: relative;
+        z-index: 7;
+        transform-origin: center;
+        &:nth-child(1){
+            color: orange;
+            text-shadow:6px 2px 1px black;
+            animation:rango 4s both;
+            
+        }
+        &:nth-child(2){
+            color: $blanc;
+            text-shadow:6px 2px 1px black;
+            animation:et 4s both ;
+        
+        }
+        &:nth-child(3){
+            color: blue;
+            text-shadow:6px 2px 1px rgb(0, 0, 0);
+            animation:blum 4s both;
+        }
+    }
+    
+}

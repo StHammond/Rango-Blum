@@ -1,0 +1,41 @@
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  top: 50px;
+}
+
+#logo > div {
+  font-family: "Mario-Party-Hudson-Font.ttf";
+  font-size: 100px;
+  position: relative;
+  z-index: 7;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#logo > div:nth-child(1) {
+  color: orange;
+  text-shadow: 6px 2px 1px black;
+  -webkit-animation: rango 4s both;
+          animation: rango 4s both;
+}
+
+#logo > div:nth-child(2) {
+  color: #d8d4cd;
+  text-shadow: 6px 2px 1px black;
+  -webkit-animation: et 4s both;
+          animation: et 4s both;
+}
+
+#logo > div:nth-child(3) {
+  color: blue;
+  text-shadow: 6px 2px 1px black;
+  -webkit-animation: blum 4s both;
+          animation: blum 4s both;
+}
+/*# sourceMappingURL=logo.css.map */

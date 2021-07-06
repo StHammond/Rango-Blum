@@ -1,0 +1,124 @@
+@keyframes upper{
+    0%{transform: translateY(25px); }
+    100%{transform: translateY(0px); }
+}
+@keyframes down{
+    0%{transform: translateY(-25px)}
+    100%{transform: translateY(0px)}
+}
+@keyframes left{
+    0%{transform: translateX(25px)}
+    100%{transform: translateX(0px)}
+}
+@keyframes right{
+    0%{transform: translateX(-25px)}
+    100%{transform: translateX(0px)}
+}
+@keyframes blue{
+    0%{background-color: blue;}
+    10%{background-color: rgb(0, 0, 110);}
+    30%{background-color: skyblue;}
+    80%{background-color: rgb(0, 0, 110);}
+    100%{background-color: blue;}
+}
+@keyframes orange{
+    0%{background-color: orange;}
+    10%{background-color: red;}
+    30%{background-color: pink;}
+    80%{background-color: red;}
+    100%{background-color: orange;}
+}
+@keyframes et{
+    0%{transform: translateX(-400px);}
+    30%{transform: translateX(-400px)}
+    31%{transform: translateX(-195px)}
+    36%{transform: translateX(-200px)}
+    53%{transform: translateX(-200px);}
+    75%{transform: translateX(440px);}
+    100%{transform: translateX(440px)}
+}
+@keyframes blum{
+    0%{transform: translateX(-500px);}
+    20%{transform: translateX(-200px); letter-spacing: 20px;}
+    25%{transform: translateX(-215px); letter-spacing: 0px;}
+    30%{transform: translateX(-215px); letter-spacing: 0px;}
+    40%{transform: translateX(-150px); letter-spacing: -10px;}
+    50%{transform: translateX(-165px); letter-spacing: 0px;}
+    55%{transform: translateX(-165px); letter-spacing: 0px;}
+    65%{letter-spacing: -15px;}
+    75%{transform: translateX(900px);}
+    90%{transform: translateX(910px); letter-spacing: 60px;}
+    100%{transform: translateX(890px); letter-spacing: 0px;}
+}
+@keyframes blumWin{
+    0%{transform: translateX(890px);}
+    10%{transform: translateX(750px);letter-spacing: 0px;}
+    40%{transform: translateX(750px); letter-spacing: 0px}
+    55%{transform: translateX(750px); letter-spacing: 100px}
+    56%{transform: translateX(750px); letter-spacing: 0px}
+    58%{transform: translate(300px, 0px);}
+    70%{transform: translate(300px, 0px);}
+    90%{transform: translate(300px, 300px);}
+    100%{transform: translate(300px, 300px) scale(5);}
+}
+@keyframes etBlum{
+    0%{transform: translateX(440px);}
+    57%{transform: translateX(440px);}
+    60%{transform: translateX(-100px);}
+    100%{transform: translateX(-100px);}
+}
+@keyframes rangoLose{
+    0%{transform: translateX(20px);}
+    5%{transform: translateX(20px);}
+    9%{transform: translateX(20px) rotate3d(0, -1, 0, 80deg );}
+    30%{transform: translateX(20px) rotate3d(0, -1, 0, 80deg );}
+    35%{transform: translateX(20px) rotate(0turn);}
+    60%{transform: translateX(20px) scale(1) rotate(10turn);}
+    100%{transform: translate(-120px, -70px) scale(0);}
+}
+@keyframes rangoWin{
+    0%{transform: translateX(20px);opacity: 1;}
+    19%{transform: translateX(20px);opacity: 1;}
+    33%{transform: translateX(20px);opacity: 0.2;}
+    70%{transform: translateX(930px);opacity: 0.2; letter-spacing: 0px;}
+    71%{transform: translateX(930px);opacity: 0.2; letter-spacing: 30px;}
+    72%{transform: translateX(930px);opacity: 0.2; letter-spacing: 0px;}
+    90%{transform: translateX(930px);opacity: 0.2; letter-spacing: 0px;}
+    100%{transform: translate(600px, 300px) scale(5) rotate(6turn);opacity: 1;}
+}
+@keyframes etRango{
+    0%{transform: translate(440px, 0px);}
+    10%{transform: translate(440px, -200px);}
+    100%{transform: translate(440px, -200px);}
+    
+}
+@keyframes blumLose{
+    0%{transform: translateX(890px);}
+    5%{transform: translateX(890px) rotate3d(0, 1, 0, 80deg );}
+    25%{transform: translateX(890px) rotate3d(0, 1, 0, 80deg );}
+    30%{transform: translateX(890px) ;}
+    70%{transform: translateX(890px) ;}
+    74%{transform: translateX(1200px) ;}
+    100%{transform: translateX(1200px) ;}
+   
+}
+@keyframes rango{
+    0%{transform: translateX(-300px);}
+    55%{transform: translateX(-300px); letter-spacing: -10px;}
+    56%{transform: translateX(20px);}
+    100%{transform: translateX(20px);letter-spacing: 0px;}
+}
+@keyframes cacheG{
+    0%{transform: scaleX(1);}
+    100%{transform: scaleX(0);}
+}
+@keyframes cacheD{
+    0%{transform: scaleX(1);}
+    100%{transform: scaleX(0);}
+}
+
+@keyframes intro{
+    0%{letter-spacing: 0px; transform: scale(1.1);}
+    50%{letter-spacing: -4px; transform: scale(0.9);}
+    100%{letter-spacing: 0px; transform: scale(1.1);}
+}

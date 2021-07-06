@@ -1,0 +1,115 @@
+#game{
+    display:flex;
+    justify-content:center;
+    position:relative;
+    z-index:1;
+    top:-750px;
+    #bordure{
+        position:relative;
+        z-index:3;
+        bottom:-10px;
+        width:50px;
+        height:415px;
+        background-color:rgba(19, 18, 18, 0.952);
+        border-radius:2px;
+        & div{
+            width:6px;
+            height:100%;
+            background-color: rgb(148, 148, 148);
+            margin-left:auto;
+            margin-right:auto;
+        }
+    }
+    #map{
+        margin-top:10px;
+        margin-right:auto;
+        margin-left:auto;
+        width:1410px;
+        height:400px;
+        background-color: rgb(64, 83, 67);
+        display:grid;
+        grid-template-columns:repeat(54, 1fr);
+        gap:1px;
+            &>div{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                width:25px;
+                height:25px;
+                border-radius:5px;
+                background-color: rgba(19, 18, 18, 0.952);
+            }
+    }
+}
+#piege{
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    top:-800px;
+    &  div{
+        display:flex;
+        justify-content:center;
+        text-align:center;
+        flex-direction:column;
+    }   
+}
+#piegeO{
+    position:relative;
+    font-size:25px;
+    margin-left:30px;
+    margin-top:10px;
+    text-shadow:1px 1px 0 orange;
+    font-family:'Mario-Party-Hudson-Font.ttf';
+    color: black;
+}
+#piegeB{
+    position:relative;
+    font-size:25px;
+    margin-right:30px;
+    margin-top:10px;
+    text-shadow:1px 1px 0 blue;
+    font-family:'Mario-Party-Hudson-Font.ttf';
+    color: rgb(0, 0, 0);
+}
+#piegeBnombre{
+    font-size:50px;
+    margin-top:10px;
+    text-shadow:1px 1px 0 blue;
+    font-family:'Mario-Party-Hudson-Font.ttf';
+    color: rgb(0, 0, 0);
+}
+#piegeOnombre{
+    font-size:50px;
+    margin-top:10px;
+    text-shadow:1px 1px 0 orange;
+    font-family:'Mario-Party-Hudson-Font.ttf';
+    color: rgb(0, 0, 0);
+}
+
+#blue{
+    width:10px;
+    height:10px;
+    background-color: blue;
+    border-radius:50px;
+    border:2px solid black;
+}
+#orange{
+    width:10px;
+    height:10px;
+    background-color: rgb(224, 122, 26);
+    border-radius:50px;
+    border:2px solid rgb(0, 0, 0);
+}
+#win{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    top:-930px;
+    z-index: 8;
+    width: 500px;
+    height: 100px;
+    font-size: 30px;
+    font-family:'Mario-Party-Hudson-Font.ttf';
+}

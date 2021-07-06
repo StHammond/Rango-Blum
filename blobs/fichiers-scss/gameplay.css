@@ -1,0 +1,155 @@
+#game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  z-index: 1;
+  top: -750px;
+}
+
+#game #bordure {
+  position: relative;
+  z-index: 3;
+  bottom: -10px;
+  width: 50px;
+  height: 415px;
+  background-color: rgba(19, 18, 18, 0.952);
+  border-radius: 2px;
+}
+
+#game #bordure div {
+  width: 6px;
+  height: 100%;
+  background-color: #949494;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#game #map {
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1410px;
+  height: 400px;
+  background-color: #405343;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[54];
+      grid-template-columns: repeat(54, 1fr);
+  gap: 1px;
+}
+
+#game #map > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgba(19, 18, 18, 0.952);
+}
+
+#piege {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  top: -800px;
+}
+
+#piege div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#piegeO {
+  position: relative;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 0 orange;
+  font-family: 'Mario-Party-Hudson-Font.ttf';
+  color: black;
+}
+
+#piegeB {
+  position: relative;
+  font-size: 25px;
+  margin-right: 30px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 0 blue;
+  font-family: 'Mario-Party-Hudson-Font.ttf';
+  color: black;
+}
+
+#piegeBnombre {
+  font-size: 50px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 0 blue;
+  font-family: 'Mario-Party-Hudson-Font.ttf';
+  color: black;
+}
+
+#piegeOnombre {
+  font-size: 50px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 0 orange;
+  font-family: 'Mario-Party-Hudson-Font.ttf';
+  color: black;
+}
+
+#blue {
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+#orange {
+  width: 10px;
+  height: 10px;
+  background-color: #e07a1a;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+#win {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  top: -930px;
+  z-index: 8;
+  width: 500px;
+  height: 100px;
+  font-size: 30px;
+  font-family: 'Mario-Party-Hudson-Font.ttf';
+}
+/*# sourceMappingURL=gameplay.css.map */

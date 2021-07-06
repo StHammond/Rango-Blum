@@ -1,0 +1,35 @@
+#next {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: -760px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  color: #d8d4cd;
+  font-family: 'Mario-Party-Hudson-Font.ttf';
+  -webkit-animation: intro infinite 5s;
+          animation: intro infinite 5s;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+#next:hover {
+  color: #fbff00;
+  text-shadow: #fbff00;
+  text-decoration: underline;
+  -webkit-animation: none;
+          animation: none;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+/*# sourceMappingURL=next.css.map */
